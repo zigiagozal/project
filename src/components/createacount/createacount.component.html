@@ -1,35 +1,21 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!-- <link rel="stylesheet" href="./createacount.component.css"> -->
-        <ul>
-            <li><a class="active" routerLink="/MyApp">Home</a></li>
-            <!-- <li><a href="rulesOfTheGamePage.html">Rules of the game</a></li> -->
-            <!-- <li style="float:right"><a class="active" href="aboutPage.html">About</a></li> -->
-        </ul>
-    </head>
-    <body>
-        <input type="text" id="firstName" name="firstName" placeholder="firstName">
-        <input type="text" id="laststName" name="laststName" placeholder="laststName">
+<router-outlet></router-outlet>
+<input type="text" id="firstName" name="firstName" placeholder="firstName">
+<input type="text" id="laststName" name="laststName" placeholder="laststName">
 
-        <!-- <input type="image" id="image" name="image"> -->
+<!-- <input type="image" id="image" name="image"> -->
 
-        <br>
-        <input type="email" id="gmail" name="gmail" placeholder="gmail">
-        <input type="text" id="nickname" name="nickname" placeholder="nickname">
-        <br>
-        <input type="password" id="password" name="password" placeholder="password">
-        <label for="gender">Choose your gender:</label>
-        <select id="gender" name="gender">
-            <option value="Other">Other</option>
-            <option value="Female">Female</option>
-            <option value="Male">Male</option>
-        </select>
-        <br>
-        <input type="password" id="password" name="password" placeholder="same password">
-        <input type="submit" value="creat an account">
-        <form routerLink="/MyApp">
-            <input type="submit" value="i have an account">
-        </form>
-    </body>
-</html>
+<br>
+<input type="email" id="gmail" name="gmail" placeholder="gmail">
+<input type="text" id="nickname" name="nickname" placeholder="nickname">
+<br>
+<input type="password" id="password" name="password" placeholder="password">
+<label for="gender">Choose your gender:</label>
+<select id="gender" name="gender">
+    <option value="Other">Other</option>
+    <option value="Female">Female</option>
+    <option value="Male">Male</option>
+</select>
+<br>
+<input type="password" id="password" name="password" placeholder="same password">
+<button routerLink="#" routerLinkActive="active">create an account</button>
+<button routerLink="" routerLinkActive="active">i have an account</button>

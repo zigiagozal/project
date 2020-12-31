@@ -12,13 +12,15 @@ import { CreatAcountComponent } from 'src/components/createacount/createacount.c
   declarations: [
     AppComponent,RulesComponent,CreatAcountComponent
   ],
-
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [CreatAcountComponent, RulesComponent, AppComponent]
+  
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule {
   

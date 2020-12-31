@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./createacount.component.css']
 })
 export class CreatAcountComponent {
-  title = 'CreatAcount';
+  title = 'CreateAcount';
 }

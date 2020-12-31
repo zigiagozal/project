@@ -1,26 +1,5 @@
-<html>
-    <head>
-      <link rel="stylesheet" href="./app.component.css">
-      <!-- <ul>
-          <li><a class="active" routerLink="/MyApp">Home</a></li>
-          <li><a href="#">Rules of the game</a></li>
-          <li style="float:right"><a class="active" href="#">About</a></li>
-      </ul> -->
-    </head>
-    <body>
-        <form>
-            <label for="userName">user name:</label><br>
-            <input type="text" id="userName" name="userName"><br>
-
-            <label for="password">password:</label><br>
-            <input type="text" id="password" name="password"><br><br>
-            
-            <form action="#">
-                <input type="submit" value="log in">
-            </form>
-            <form routerLink="CreatAcount">
-                <input type="submit" value="creat an account">
-            </form>
-        </form> 
-    </body>
-</html>
+<router-outlet></router-outlet>
+<input type="text" id="nickname" name="nickname" placeholder="nickname"><br>
+<input type="password" id="password" name="password" placeholder="password"><br>
+<button routerLink="#" routerLinkActive="active">log in</button>
+<button routerLink="CreateAcount" routerLinkActive="active">create an account</button>
